@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore the output video from Git but not videos you import into src/.
+out
+
+# Remotion bundle output (npm run build)
+build/
+
+# Generated sound track: rebuild with `npm run sfx`
+public/task-separation-sfx.wav
